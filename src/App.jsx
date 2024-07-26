@@ -25,7 +25,9 @@ const routers= createBrowserRouter([
 
 ]}
   
-])
+],
+{ basename: '/react-1' } 
+)
 export default function App() {
   return <>
   <HelmetProvider>
