@@ -7,4 +7,5 @@ export default defineConfig({
     react(),
     eslintPlugin(),
   ],
+   base: '/react-1/',
 });
