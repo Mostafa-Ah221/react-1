@@ -18,7 +18,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="bg-gray-800 fixed top-0 z-50 p-4 w-full flex justify-between items-center">
+            <nav className="bg-gray-800 relative md:fixed top-0 z-50 p-4 w-full flex justify-between items-center">
                 <h1 className="text-white text-3xl font-bold "><Link to="/">START FRAMEWORK</Link></h1>
                 <div className="md:hidden">
                     <FontAwesomeIcon 
