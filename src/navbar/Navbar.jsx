@@ -18,7 +18,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="bg-gray-800 fixed top-0 z-50 p-4 w-full flex justify-between items-center">
+            <nav className="bg-gray-800 relative md:fixed top-0 z-50  p-4 w-full flex justify-between items-center">
                 <h1 className="text-white text-3xl font-bold "><Link to="/">START FRAMEWORK</Link></h1>
                 <div className="md:hidden">
                     <FontAwesomeIcon 
@@ -58,7 +58,7 @@ export default function Navbar() {
                 </ul>
             </nav>
             {menuOpen && (
-                <ul className="md:hidden bg-gray-800 w-full space-y-2 p-4 mt-16 ">
+                <ul className="md:hidden bg-gray-800 w-full space-y-2 p-4 mt-16 mb-16 ">
                     <li>
                         <Link 
                             to="/about" 
