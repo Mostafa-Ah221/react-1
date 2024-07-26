@@ -58,7 +58,7 @@ export default function Navbar() {
                 </ul>
             </nav>
             {menuOpen && (
-                <ul className="md:hidden bg-gray-800 w-full space-y-2 p-4 mt-16 mb-16 ">
+                <ul className="md:hidden bg-gray-800 w-full space-y-2 p-4 ">
                     <li>
                         <Link 
                             to="/about" 
